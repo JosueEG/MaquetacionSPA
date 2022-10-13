@@ -1,0 +1,194 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: ARIAL;
+  margin-top: 0px;
+  font-size:  16px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #fdf9f0;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+  /* border: 1px red solid; */
+}
+.barraRosa{
+  background-color: #ff3281;
+  width: 100%;
+  margin: 0px;
+}
+.Logos{
+  vertical-align: middle;
+  height: 130px;
+}
+.LogoCabecera{
+  float: left;
+}
+.logoredessociales{
+  margin-top: 35px;
+  /* border: 1px blue solid; */
+  float: right;
+}
+.Loguito{
+  width: 50px;
+  margin-right: 40px;
+}
+.Loguito:nth-child(3){
+  margin-right: 0px;
+}
+.menutop{
+  clear: both;
+  border: 2px black solid;
+  padding: 5px 0px;
+  margin-top: 10px;
+}
+.menutop a{
+  text-decoration: none;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+  padding-right: 200px;
+}
+.menutop a:nth-child(4){
+  padding-right: 0px;
+}
+.FondoImagen{
+  background-image: url(Images/fondopiedras.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* border: 1px red solid; */
+  text-align: center;
+  background-size: cover;
+}
+.FondoImagen h1{
+  padding-top: 100px;
+  color: white;
+}
+.FondoImagen P{
+  padding-top: 10px;
+  font-size: 24px;
+  color: white;
+}
+.BTN1{
+  background-color: #ff3281;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  margin-right: 40px;
+  font-size: 24px ;
+
+}
+.BTN2{
+  border: 1px #ff3281 solid;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 24px ;
+}
+.fondoBlanco{
+  width: 100%;
+  background-color: white;
+  margin-top: 0px;
+  height: 350px;
+}
+.uno{
+  vertical-align: middle;
+}
+.textoProducto{
+  margin-top: 10px;
+  text-align: left;
+  vertical-align: middle;
+  /* border: 1px blue solid; */
+  float: left;
+  line-height: 30px;
+  height: 303px;
+}
+.textoProducto h1{
+  font-size: 23px;
+}
+.textoProducto p{
+  width: 700px;
+  line-height: 50px;
+}
+.imagenVela{
+  margin-top: 10px;
+  /* border: 1px blue solid; */
+  float: right;
+}
+.contenedorBuscamos{
+  clear: both;
+  height: 550px;
+}
+.ImagenJabon{
+  /* border: 1px blue solid; */
+  float: left;
+}
+.ImagenJabon1{
+  border-radius: 15px;
+  height: 470px;
+  width: 550px;
+}
+.puestosTrabajo{
+  float: right;
+  line-height: 24px;
+  padding-left: 30px;
+  /* border: 1px blue solid; */
+  width: 640px;
+  text-align: left;
+}
+.puestosTrabajo h3{
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+.puestosTrabajo p{
+  margin-top: 8px;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.contendoresAmarillos{
+  margin-top: 20px;
+  clear: both;
+  display: inline-block;
+}
+.CuadroA1 h2{
+  text-align: center;
+  font-size: 20px;
+}
+.CuadroA1{
+  text-align: center;
+  display: inline-block;
+  /* border: 1px blue solid; */
+  width: 350px;
+  background-color: #F7E666;
+  padding: 15px 5px;
+  margin-right: 69px;
+  border-radius: 15px;
+  padding-bottom: 30px;
+}
+.CuadroA1:nth-child(3){
+  margin-right: 0px;
+}
+.IMGCircular{
+  width: 200px;
+  border-radius: 100px;
+  border: 10px white solid;
+}
+.BTNMas{
+  margin-top: 40px;
+  text-decoration: none;
+  color: white;
+  background-color: #ff3281;
+  padding: 15px;
+}
+.logoabajo{
+  width: 100%;
+  padding-top: 30px;
+  background-color: white;
+}
+.logoabajo p{
+  color: #ff3281;
+}
